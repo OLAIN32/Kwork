@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 
 body {
@@ -9,11 +10,11 @@ body {
         height: 59px;
         width: 100%;
         justify-content: center;
-        background-color: rgb(225, 225, 245);
-        align-items: center;
-
+        background-color: rgb(228, 237, 255);
+        align-items:center;
+        font-size: 14px;
         span {
-            padding: 9px 14px 9px 14px;
+            padding: 2px 6px 0px 6px;
             color: #0470f9;
         }
     }
@@ -28,7 +29,7 @@ body {
         section {
             // border: 1px solid red;
             width: 85%;
-            padding-top: 2vh;
+            // padding-top: 2vh;
             display: flex;
             height: 12vh;
 
@@ -65,8 +66,8 @@ body {
                 // width: 100px;
                 margin: 0;
                 gap: 10px;
-                
-                button{
+
+                button {
                     height: 6vh;
                     border-radius: 10px;
                     border: 0px;
@@ -82,13 +83,53 @@ body {
             width: 97%;
             justify-content: center;
             display: flex;
-
+            font-size: 15px;
+            font-weight: 700;
             span {
                 color: white;
-                padding: 9px 14px 9px 14px;
+                // padding: 9px 14px 9px 14px;
             }
 
             background-color: #0470f9;
         }
     }
+
+    .s_main {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        .d_main {
+            width: 60%;
+            height: 72.79vh;
+            border: 1px solid red;
+            display: flex;
+            align-items: flex-start;
+            .sec1{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                font-size: 22px;
+                width: 50%;
+            }
+            .sec2{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                // align-items: flex-start;
+            }
+        }
+        .d_main2{
+             width: 60%;
+            height: 72.79vh;
+            border: 1px solid red;
+            display: flex;
+            align-items: flex-start;
+            
+        }
+    }
+
+
 }
