@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+}
+
 body {
     nav {
         display: flex;
         flex-direction: row;
         height: 59px;
-        width: 1920px;
+        width: 100%;
         justify-content: center;
+        background-color: rgb(225, 225, 245);
+        align-items: center;
 
         span {
             padding: 9px 14px 9px 14px;
@@ -13,11 +19,70 @@ body {
     }
 
     header {
+        // border: 1px solid red;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+
+        section {
+            // border: 1px solid red;
+            width: 85%;
+            padding-top: 2vh;
+            display: flex;
+            height: 12vh;
+
+            .d_logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 3vh;
+                margin: 0;
+                gap: 0;
+
+            }
+
+            .d_info {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2vh;
+                margin: 0;
+                gap: 0;
+                font-size: 25px;
+
+                p {
+
+                    padding-left: 10px;
+                }
+            }
+
+            .buttons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 3vh;
+                // width: 100px;
+                margin: 0;
+                gap: 10px;
+                
+                button{
+                    height: 6vh;
+                    border-radius: 10px;
+                    border: 0px;
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+        }
+
         nav {
             height: 59px;
-            width: 1920px;
+            align-items: center;
+            width: 97%;
             justify-content: center;
             display: flex;
+
             span {
                 color: white;
                 padding: 9px 14px 9px 14px;
