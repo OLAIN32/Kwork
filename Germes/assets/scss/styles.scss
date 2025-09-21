@@ -1,0 +1,29 @@
+body {
+    nav {
+        display: flex;
+        flex-direction: row;
+        height: 59px;
+        width: 1920px;
+        justify-content: center;
+
+        span {
+            padding: 9px 14px 9px 14px;
+            color: #0470f9;
+        }
+    }
+
+    header {
+        nav {
+            height: 59px;
+            width: 1920px;
+            justify-content: center;
+            display: flex;
+            span {
+                color: white;
+                padding: 9px 14px 9px 14px;
+            }
+
+            background-color: #0470f9;
+        }
+    }
+}
