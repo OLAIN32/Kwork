@@ -103,6 +103,7 @@ body .s_main .d_main .sec2 {
 }
 body .s_main .d_main2 {
   width: 60%;
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
