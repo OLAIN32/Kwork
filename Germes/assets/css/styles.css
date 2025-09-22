@@ -86,7 +86,6 @@ body .s_main {
 body .s_main .d_main {
   width: 60%;
   height: 72.79vh;
-  border: 1px solid red;
   display: flex;
   align-items: flex-start;
 }
@@ -107,5 +106,14 @@ body .s_main .d_main2 {
   height: 72.79vh;
   border: 1px solid red;
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
+}
+body .s_main .d_main2 .d_text {
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 15px;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
 }

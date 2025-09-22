@@ -11,8 +11,9 @@ body {
         width: 100%;
         justify-content: center;
         background-color: rgb(228, 237, 255);
-        align-items:center;
+        align-items: center;
         font-size: 14px;
+
         span {
             padding: 2px 6px 0px 6px;
             color: #0470f9;
@@ -85,6 +86,7 @@ body {
             display: flex;
             font-size: 15px;
             font-weight: 700;
+
             span {
                 color: white;
                 // padding: 9px 14px 9px 14px;
@@ -104,32 +106,69 @@ body {
         .d_main {
             width: 60%;
             height: 72.79vh;
-            border: 1px solid red;
+            // border: 1px solid red;
             display: flex;
             align-items: flex-start;
-            .sec1{
+
+            .sec1 {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 font-size: 22px;
                 width: 50%;
             }
-            .sec2{
+
+            .sec2 {
                 width: 50%;
                 display: flex;
                 flex-direction: column;
                 // align-items: flex-start;
             }
         }
-        .d_main2{
-             width: 60%;
-            height: 72.79vh;
-            border: 1px solid red;
-            display: flex;
-            align-items: flex-start;
-            
-        }
+
+.d_main2 {
+    width: 60%;
+    // height: 72.79vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    
+    .imge1, .imge2 {
+        position: relative;
     }
+    
+    .imge2 {
+        margin-right: 70px;
+    }
+    
+    .d_text {
+        padding: 15px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
+        position: absolute;
+    }
+    
+    .text-block-1 {
+        width: 270px;
+        height: 100px;
+        top: 250px; // Заходит на картинку
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .text-block-2 {
+        width: 270px;
+        height: 100px;
+        top: 250px; // Заходит на картинку
+        right: 0;
+        display: flex;
+        align-items: flex-end; // Текст в нижней части блока
+        justify-content: flex-end; // Текст по правому краю
+        text-align: right;
+        font-size: 17px;
+    }
+}
 
 
 }
