@@ -128,23 +128,46 @@ body {
 
         .d_main2 {
             width: 60%;
-            height: 72.79vh;
-            border: 1px solid red;
+            height: 50vh;
+            // border: 1px solid red;
             display: flex;
-            // align-items: ;
             justify-content: space-between;
+            margin-top: 50px; // Добавил отступ сверху
+
+            .imge1,
+            .imge2 {
+                position: relative;
+            }
+
+            .imge2 {
+                margin-right: 70px;
+            }
 
             .d_text {
                 padding: 15px;
                 background-color: white;
                 border-radius: 15px;
-                box-shadow: 15px;
-                -webkit-box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
-                -moz-box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
                 box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
+                position: absolute;
+            }
+
+            .text-block-1 {
+                width: 270px;
+                height: 100px;
+                top: 280px; // Сильнее заходит на картинку
+                left: 38%;
+                transform: translateX(-50%);
+            }
+
+            .text-block-2 {
+                width: 270px;
+                height: 100px;
+                top: 280px; // Сильнее заходит на картинку
+                left: 10%;
+                text-align: right;
+                font-size: 17px;
+                display: block; // Убираем flex
             }
         }
     }
-
-
 }
